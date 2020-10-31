@@ -16,7 +16,10 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: gray;
-  background: url(../images/body-bg.png) repeat fixed;
+  /* background: url(../images/body-bg.png) repeat fixed; */
+}
+.simon {
+  font-size:18px;
 }
 
 #page {
@@ -116,7 +119,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav #fh5co-logo {
   font-size: 45px;
   margin: 0;
-  padding: 1em 0;
+  padding: 20px 20px;
   font-family: "Libre Baskerville", serif;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
@@ -506,7 +509,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-events,
 #fh5co-counter,
 #fh5co-footer {
-  padding: 5em 3em;
+  padding: 2em 2em;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -519,7 +522,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-events,
   #fh5co-counter,
   #fh5co-footer {
-    padding: 3em 1em;
+    padding: 1em 1em;
   }
 }
 
