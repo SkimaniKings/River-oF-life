@@ -5,17 +5,15 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: gray;
+  color:black;
+  background-color: gray;
+
   /* background: url(../images/body-bg.png) repeat fixed; */
 }
 .simon {
@@ -89,9 +87,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .container-wrap {
-  max-width: 1060px;
+  max-width: 100%;
   margin: 0 auto;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   background: #fff;
 }
 @media screen and (max-width: 768px) {
